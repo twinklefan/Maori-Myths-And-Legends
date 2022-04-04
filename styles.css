@@ -1,0 +1,205 @@
+/* MAIN */
+html {
+  cursor: url('dino2.png'),default;
+}
+body {
+  margin: 10px 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* DIV STYLING */
+.titleDiv {
+  background-color: #AAD8D3;
+  height: 500px;
+  margin-top: 0!important;
+}
+.nextDiv {
+  background-color: #00ADB5;
+  height: auto;
+  min-height: 500px;
+  margin-top: 0!important;
+  padding: 30px;
+}
+/* HOME PAGE DIVS */
+.HnextDiv {
+  background-color: #00ADB5;
+  height: auto;
+  min-height: 650px;
+  margin-top: 0!important;
+  padding: 30px;
+  float: none;
+  padding: 10px;
+}
+/* BUTTONS */
+.button {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: inherit;
+  border: 2px solid #85e9ed;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 6px 8px;
+  width: 150px;
+  transition: all 0.5s;
+  margin: 0;
+  cursor: url('dino2.png'),default;
+}
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 20px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* MAIN DIV TEXT STYLING */
+.Title {
+  font-family: 'Voltaire';
+  font-size: 7.5rem;
+  text-align: center;
+  color: #11999E;
+  margin: 0;
+  position: relative;
+  top: 30%;
+}
+.subTitle {
+  font-family: 'Salsa';
+  font-size: 3.6rem;
+  text-align: center;
+  color: #00ADB5;
+  position: relative;
+  top: 15%;
+}
+/* NEXTDIV TEXT STYLING */
+.miniTitle {
+  font-size: 3rem;
+  font-family: 'Salsa';
+  color: #85e9ed;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: 50px;
+}
+.miniText {
+  font-size: 1.8rem;
+  font-family: 'Molengo';
+  color: #85e9ed;
+  max-width: 85%;
+  display: block;
+  text-align: center;
+}
+/* CHANGE SOME OF THE MINI TEXT STYLIG */
+.MT2 {
+  max-width: 90%;
+}
+/* LINK TEXT STYLING FOR LINKS */
+.link {
+  font-size: 26px;
+  font-family: 'Molengo';
+  color: #85e9ed;
+}
+li>a:visited {
+ text-decoration: none!important;
+ color: #85e9ed;
+}
+li a:hover {
+  text-decoration: underline;
+  color:white;
+}
+li { color: #85e9ed;}
+a { color: #85e9ed;}
+/* NAV BAR */
+.nav {
+  overflow: hidden;
+  position: relative;
+}
+.nav a {
+  float: left;
+  color: #11999E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav a:hover {
+  cursor: url('dino2.png'),default;
+  background-color: #E4F9F5;
+  color: black;
+  border-radius: 25px 25px 0 0;
+}
+.nav a.active {
+  background-color: #AAD8D3;
+  color: #11999E;
+  border-radius: 25px 25px 0 0;
+}
+.icon { padding: 5px;}
+.navText {
+  display: inline;
+}
+/* Bibliography PAGE LAYOUT */
+.column {
+  float: left;
+  text-align: center;
+  width: 33.33%;
+  /* border: 1px solid black; */
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+/* IMAGES */
+#mauiImage {
+  width: 19%;
+  height: auto;
+  float: left;
+  margin: 20px;
+}
+#mauiImage2 {
+  width: 39%;
+  height: auto;
+  float: left;
+  margin: 20px;
+}
+/* SMALLER SCREEN */
+@media screen and (max-width: 985px) {
+  .navText {
+    display: none;
+  }
+  .Title {
+    font-size: 4rem;
+  }
+  .subTitle {
+    font-size: 2rem;
+  }
+  .titleDiv {
+    height: 300px;
+  }
+  .colum {
+    width: 100%;
+  }
+}
+/* SPANS */
+#who {
+  color: white;
+}
+/* NO DECORATION */
+.noDec, a:link, a:visited {
+    text-decoration: none;
+    text-align: left!important;
+}
+/* GET THE TEXT TO GO LEFT!!! */
+#LEFT {
+  text-align: left!important;
+}
