@@ -1,3 +1,5 @@
 # Maori-Myths-And-Legends
-Homework
-this was a assessment for school
+This was a assessment for school
+
+Link to website:
+https://twinklefan.github.io/Maori-Myths-And-Legends/
