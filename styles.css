@@ -1,6 +1,6 @@
 /* MAIN */
 html {
-  cursor: url('dino2.png'),default;
+  cursor: url('cursor3.png'),default;
 }
 body {
   margin: 10px 0 0 0;
@@ -12,6 +12,7 @@ body {
   height: 500px;
   margin-top: 0!important;
 }
+#H1 { height: 600px;}
 .nextDiv {
   background-color: #00ADB5;
   height: auto;
@@ -27,7 +28,6 @@ body {
   margin-top: 0!important;
   padding: 30px;
   float: none;
-  padding: 10px;
 }
 /* BUTTONS */
 .button {
@@ -42,7 +42,7 @@ body {
   width: 150px;
   transition: all 0.5s;
   margin: 0;
-  cursor: url('dino2.png'),default;
+  cursor: url('cursor2.png'),default;
 }
 .button span {
   display: inline-block;
@@ -133,7 +133,7 @@ a { color: #85e9ed;}
   font-size: 17px;
 }
 .nav a:hover {
-  cursor: url('dino2.png'),default;
+  cursor: url('cursor1.png'),default;
   background-color: #E4F9F5;
   color: black;
   border-radius: 25px 25px 0 0;
@@ -146,6 +146,13 @@ a { color: #85e9ed;}
 .icon { padding: 5px;}
 .navText {
   display: inline;
+}
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #AAD8D3;
+  color: white;
 }
 /* Bibliography PAGE LAYOUT */
 .column {
@@ -161,13 +168,50 @@ a { color: #85e9ed;}
 }
 /* IMAGES */
 #mauiImage {
-  width: 19%;
+  width: 17%;
+  max-width: 500px;
   height: auto;
   float: left;
   margin: 20px;
 }
-#mauiImage2 {
+#SIImage {
   width: 39%;
+  max-width: 400px;
+  height: auto;
+  float: left;
+  margin: 20px;
+}
+#NIImage {
+  width: 39%;
+  max-width: 400px;
+  height: auto;
+  float: left;
+  margin: 20px;
+}
+#taniImage {
+  width: 39%;
+  max-width: 400px;
+  height: auto;
+  float: left;
+  margin: 20px;
+}
+#sunImage {
+  width: 30%;
+  max-width: 400px;
+  height: auto;
+  float: left;
+  margin: 20px;
+}
+#sharkImage {
+  width: 18%;
+  max-width: 400px;
+  height: auto;
+  float: left;
+  margin: 20px;
+}
+#firstImage {
+  width: 20%;
+  max-width: 300px;
   height: auto;
   float: left;
   margin: 20px;
