@@ -217,7 +217,7 @@ footer {
   margin: 20px;
 }
 /* SMALLER SCREEN */
-@media screen and (max-width: 985px) {
+@media screen and (max-width:1200 px) {
   .navText {
     display: none;
   }
