@@ -217,7 +217,7 @@ footer {
   margin: 20px;
 }
 /* SMALLER SCREEN */
-@media screen and (max-width:1500 px) {
+@media screen and (max-width: 1270px) {
   .navText {
     display: none;
   }
@@ -226,6 +226,7 @@ footer {
   }
   .subTitle {
     font-size: 2rem;
+      padding-top: 50px
   }
   .titleDiv {
     height: 300px;
