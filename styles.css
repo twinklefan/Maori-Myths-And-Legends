@@ -20,14 +20,43 @@ body {
   margin-top: 0!important;
   padding: 30px;
 }
-/* HOME PAGE DIVS */
+/* HOME PAGE DIV */
 .HnextDiv {
   background-color: #00ADB5;
   height: auto;
-  min-height: 650px;
+  min-height: 1125px;
   margin-top: 0!important;
   padding: 30px;
   float: none;
+}
+/* STRIPED BACKGROUND FOR HOME DIV */
+.VS1 { 
+  background: repeating-linear-gradient( 
+    -135deg, 
+    #00ADB5, 
+    #00ADB5 15px, 
+    #AAD8D3 15px, 
+    #AAD8D3 30px); 
+  height: 60px; 
+} 
+.VS2 { 
+  background: repeating-linear-gradient( 
+    135deg, 
+    #00ADB5, 
+    #00ADB5 15px, 
+    #AAD8D3 15px, 
+    #AAD8D3 30px); 
+  height: 60px; 
+ } 
+ /* COLUMS */
+ .column {
+  float: left;
+  text-align: center;
+  width: 33.33%;
+}
+.column2 {
+  float: left;
+  width: 50%;
 }
 /* BUTTONS */
 .button {
@@ -82,6 +111,8 @@ body {
   position: relative;
   top: 15%;
 }
+/* ANIMATION FOR MINI TEXT */
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 /* NEXTDIV TEXT STYLING */
 .miniTitle {
   font-size: 3rem;
@@ -90,6 +121,11 @@ body {
   margin-bottom: 0px;
   text-align: center;
   margin-top: 50px;
+
+  opacity:0;
+  animation:fadeIn ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:1.4s;
 }
 .miniText {
   font-size: 1.8rem;
@@ -98,6 +134,12 @@ body {
   max-width: 85%;
   display: block;
   text-align: center;
+
+  opacity:0;  /* make things invisible upon start */
+  animation:fadeIn ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:1.4s;
+  animation-delay: 1s;
 }
 /* CHANGE SOME OF THE MINI TEXT STYLIG */
 .MT2 {
@@ -155,63 +197,64 @@ footer {
   color: white;
 }
 /* Bibliography PAGE LAYOUT */
-.column {
-  float: left;
-  text-align: center;
-  width: 33.33%;
-  /* border: 1px solid black; */
-}
-
 .row:after {
   display: table;
   clear: both;
 }
 /* IMAGES */
 #mauiImage {
-  width: 17%;
-  max-width: 500px;
+  width: 15%;
+  max-width: 388px;
+  min-width: 150px;
   height: auto;
   float: left;
   margin: 20px;
+  max-width: ;
 }
 #SIImage {
-  width: 39%;
-  max-width: 400px;
+  width: 42%;
+  max-width: 450px;
+  min-width: 150px;
   height: auto;
   float: left;
   margin: 20px;
 }
 #NIImage {
-  width: 39%;
-  max-width: 400px;
+  width: 42%;
+  max-width: 450px;
+  min-width: 150px;
   height: auto;
   float: left;
   margin: 20px;
 }
 #taniImage {
-  width: 39%;
+  width: 43%;
   max-width: 400px;
+  min-width: 100px;
   height: auto;
   float: left;
   margin: 20px;
 }
 #sunImage {
-  width: 30%;
+  width: 37%;
   max-width: 400px;
+  min-width: 100px;
   height: auto;
   float: left;
   margin: 20px;
 }
 #sharkImage {
-  width: 18%;
+  width: 20%;
   max-width: 400px;
+  min-width: 100px;
   height: auto;
   float: left;
   margin: 20px;
 }
 #firstImage {
-  width: 20%;
-  max-width: 300px;
+  width: 22%;
+  max-width: 400px;
+  min-width: 150px;
   height: auto;
   float: left;
   margin: 20px;
