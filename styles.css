@@ -125,7 +125,7 @@ body {
   opacity:0;
   animation:fadeIn ease-in 1;
   animation-fill-mode:forwards;
-  animation-duration:1.4s;
+  animation-duration:1s;
 }
 .miniText {
   font-size: 1.8rem;
@@ -139,7 +139,7 @@ body {
   animation:fadeIn ease-in 1;
   animation-fill-mode:forwards;
   animation-duration:1.4s;
-  animation-delay: 1s;
+  animation-delay: 0.6s;
 }
 /* CHANGE SOME OF THE MINI TEXT STYLIG */
 .MT2 {
